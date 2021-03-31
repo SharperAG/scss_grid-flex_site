@@ -1,0 +1,50 @@
+@media (max-width: 740px) {
+  .nav {
+    display: grid;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .main__section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    gap: 0.5rem;
+    .main__membership,
+    .main__pro-membership,
+    .main__banner {
+      width: 95%;
+    }
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 0.5rem;
+    .box {
+      width: 95%;
+    }
+  }
+
+  .section-business {
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    gap: 0.5rem;
+  }
+
+  .section-flex {
+    display: flex;
+
+    flex-direction: column;
+    > .flexig {
+      width: 100%;
+      height: 40vh;
+    }
+  }
+}
